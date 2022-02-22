@@ -5,11 +5,11 @@ public class overLoading {
         OverLoadTest OL_Operator = new OverLoadTest();
         int result1 = OL_Operator.Add(3,5);
         float result2 = OL_Operator.Add(3.2f, 5.1f);
-        int result3 = OL_Operator.Add(4, 3.0f);
+        int result3 = OL_Operator.Add(4, 3.1f);
 
         System.out.println("3 + 5 = "+ result1);
         System.out.println("3.2 + 5.1 = "+ result2);
-        System.out.println("4 + (int)3.0 = "+ result3);
+        System.out.println("4 + (int)3.1 = "+ result3);
 
     }
 }

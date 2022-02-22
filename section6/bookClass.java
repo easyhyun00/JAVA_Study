@@ -4,7 +4,7 @@ public class bookClass {
     public static void main(String[] args){
         Book JavaBook = new Book();
         JavaBook.SetTitle("java programming");
-        System.out.println("Book title: "+JavaBook.GetTitle());
+        System.out.println("Book title: " + JavaBook.GetTitle());
     }
 }
 
