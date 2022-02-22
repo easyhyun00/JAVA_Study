@@ -6,7 +6,7 @@ public class bookClassAccess {
         JavaBook.SetTitle("java programming"); // SetTitle, GetTitle은 public 이므로 class 밖에서 사용 O
         System.out.println("Book title: "+JavaBook.GetTitle());
 
-        JavaBook.m_title = "Java is interesting"; // m_title은 private이므로 class 밖에서 사용 X
+        // JavaBook.m_title = "Java is interesting"; // m_title은 private이므로 class 밖에서 사용 X
         JavaBook.m_page = 5; // m_page는 public이므로 class 밖에서 사용 O 
     }    
 }
