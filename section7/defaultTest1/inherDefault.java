@@ -21,7 +21,7 @@ class B extends A { // B가 A에게 상속 받음, 같은 패키지 안
 
 class D extends C { // D가 C에게 상속 받음, 다른 패키지 안
     public void PrintD() {
-        // nVar1 = 10; // 다른 패키지, 상위 클래스 default 속성, =error
-        // D.PrintC(); // 다른 패키지, 상위 클래스 default 속성, =error
+        //nVar1 = 10; // 다른 패키지, 상위 클래스 default 속성, =error
+        //D.PrintC(); // 다른 패키지, 상위 클래스 default 속성, =error
     }
 }
