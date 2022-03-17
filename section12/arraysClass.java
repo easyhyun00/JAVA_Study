@@ -10,7 +10,7 @@ public class arraysClass {
         Arrays.sort(intArray); // 오름차순 정렬
         System.out.println("정렬 후: " + Arrays.toString(intArray));
 
-        // 해당 숫자가 있으면 index 반환, 없으면 음수 반환
+        // 해당 숫자가 있으면 해당 숫자의 index 반환, 없으면 음수 반환
         System.out.println(Arrays.binarySearch(intArray, 5));
         System.out.println(Arrays.binarySearch(intArray, 4));
 
