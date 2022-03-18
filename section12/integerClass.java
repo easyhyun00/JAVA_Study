@@ -6,7 +6,7 @@ public class integerClass {
         int nVar = IntVar1.intValue(); // IntVar1 객체의 값을 정수값으로
         System.out.println(nVar);
 
-        String str = IntVar1.toString(); // 객체 값을 문자열로
+        String str = IntVar1.toString(); // 객체값을 문자열로
         System.out.println(str);
 
         nVar = Integer.parseInt("300"); // 문자열을 정수값으로
